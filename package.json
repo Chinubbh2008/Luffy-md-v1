@@ -5,8 +5,8 @@
   "main": "queen.js",
   "scripts": {
     "start": "pm2 start queen.js --deep-monitoring --attach --name Luffy-Md",
-    "stop": "pm2 stop Queen_Anju",
-    "restart": "pm2 restart Queen_Anju"
+    "stop": "pm2 stop Luffy-Md",
+    "restart": "pm2 restart Luffy-Md"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
